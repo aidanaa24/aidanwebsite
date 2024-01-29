@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contacts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" href="/about">about</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/products">products</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/contacts">contacts</a>
+  </li>
+</ul>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Awesome T-Shirt Co.</h1>
+  <p>Check out our fantastic collection of T-shirts!</p>
+</div>
+
+<div class="container mt-3">
+  <h2>Our T-Shirt Products</h2>
+
+  <div class="row">
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="T-Shirt 1">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt 1</h5>
+          <p class="card-text">Description of T-Shirt 1.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRja6O8G8fiw3u1fV5788nuCW8puBGCil4D2A&usqp=CAU" class="card-img-top" alt="T-Shirt 2">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt 2</h5>
+          <p class="card-text">Description of T-Shirt 2.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPvOvZkZpmsrUkoriAJpaS92A8Ehce9XZnAg&usqp=CAU" class="card-img-top" alt="T-Shirt 3">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt 3</h5>
+          <p class="card-text">Description of T-Shirt 3.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi7jrTHxI095ot1V2TitH8vWPdBUhShqLf0g&usqp=CAU" class="card-img-top" alt="T-Shirt 4">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt 4</h5>
+          <p class="card-text">Description of T-Shirt 4.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQq0RDpDg0UZyun_dD-C8F90Vd_7LO0Ll1yA&usqp=CAU" class="card-img-top" alt="T-Shirt 5">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt 5</h5>
+          <p class="card-text">Description of T-Shirt 5.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMeoN7qZar_mPoXTado8rUGRCxb5YfilypTw&usqp=CAU" class="card-img-top" alt="T-Shirt 6">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt 6</h5>
+          <p class="card-text">Description of T-Shirt 6.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
